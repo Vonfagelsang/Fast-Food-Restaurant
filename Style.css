@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(51, 164, 230);
+}
+.Grid-one{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto auto;
+    text-align: center;
+    
+    
+}
+.flag{
+    grid-column: 1;
+    grid-row: 1;
+    width: 19vw;
+    height: 20vh;
+}
+h1{
+    font-size: 4vw;
+    color: rgb(255, 162, 56);
+    background-color: rgb(9, 33, 170);
+    margin-top: 0.5ch;
+    border-radius: 1ch;
+}
+p{
+    font-size: 3vw;
+}
+p:nth-child(even){
+    background-color: black;
+    color: white;
+}
+p:nth-child(odd){
+    background-color: white;
+    color: black;
+}
+.home-page{
+    grid-column: 1;
+}
+.navigation{
+    margin-top: -1.8vw;
+    padding-top: -1vw;
+    grid-row: 2;
+    grid-column: 1 / 6;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.menu-dropdown{
+    grid-column: 2;
+}
+.contact-info{
+    grid-column: 3;
+}
