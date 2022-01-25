@@ -9,7 +9,7 @@ body{
 }
 .Grid-two{
     display: grid;
-    grid-template-columns: 30% 50% 20%;
+    grid-template-columns: 25% 50% 25%;
     grid-template-rows: auto auto auto;
     text-align: center;
     
@@ -29,8 +29,11 @@ h1{
     border-radius: 1ch;
 }
 h2{
-    font-size: 2vw;
+    font-size: 3vw;
     color: rgb(255, 162, 56);
+    grid-column-start: 2;
+    background-color: rgb(9, 33, 170);
+    border-radius: 1ch;
 
 }
 p{
@@ -44,7 +47,7 @@ p{
 .text{
     font-size: 1.3vw;
     grid-column-start: 2;
-    grid-row-start: 1;
+    grid-row-start: 2;
     grid-row-end: 3;
     text-justify: inter-word;
 }
@@ -76,7 +79,21 @@ a:nth-child(odd){
 }
 .food{
     height: 35vh;
-    margin-left: 35vw;
-    width: 28vw;
-    
+    margin-left: 34vw;
+    width: 28vw;   
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+.kontakt{
+    font-size: 2.3vw;
+    grid-column: 2;
+    text-align: center;
+    background-color: aquamarine;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-top: 1vw;
+    margin-bottom: -1vw;
 }
